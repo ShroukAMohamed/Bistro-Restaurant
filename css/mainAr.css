@@ -1,0 +1,1127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav
+{
+    background-color: rgba(216, 186, 129, 0.822);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+nav img
+{
+    width: 120px;
+}
+
+nav li
+{
+   padding: 8px 25px;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -ms-transition: all 0.3s;
+   -o-transition: all 0.3s;
+}
+
+nav li:hover
+{
+    background-color: rgba(253, 253, 252, 0.702);
+}
+
+nav ul li a
+{
+    color: black !important;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px !important;
+}
+
+.home-img
+{
+    position: relative;
+    background-image: url(../images/pexels-jan-n-g-u-y-e-n-🍁-2664216.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    background-color:#000000 ;
+
+}
+
+.welcome
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color:rgb(250, 184, 51);
+    position: relative;
+}
+
+.welcome::before
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(249, 180, 43);
+    width: 7%;
+    height: 6%;
+    margin-right: -9%;
+    top: 28%;
+}
+
+.welcome::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(249, 180, 43);
+    width: 7%;
+    height: 6%;
+    margin-right: 2%;
+    top: 28%;
+}
+
+.text-home
+{
+    position: relative;
+}
+
+.contain-div
+{
+    padding-top: 6%;
+}
+
+.text-home h1
+{
+    font-family: 'Poppins', serif;
+    color: white;
+    font-size: 80px;
+}
+
+.text-home p
+{
+    color: white;
+    font-family: ''Satisfy'', cursive;
+    font-size: 22px;
+}
+
+.home-img a
+{
+    padding: 5px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    font-family: 'Poppins', serif;
+    letter-spacing: 1px;
+}
+
+.Enjoy
+{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.img-details
+{
+   right: 40%;
+    top: 55%;
+}
+
+.quality-2 h4
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color:rgb(238, 165, 75) ;
+    position: relative;
+}
+
+.quality-2 h4::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(238, 165, 75) ;
+    width: 12%;
+    height: 6%;
+    margin-right: 2%;
+    top: 47%;
+}
+
+.quality-2 h2
+{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+}
+
+
+.quality-2 p
+{
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:rgb(93, 93, 93) ;
+}
+
+.Quality
+{
+    padding-top: 3%;
+}
+
+.Quality .photo
+{
+    background-image: url('../images/blog2.webp');
+    width:100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.overlay-quality
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color:#000000 ;
+}
+
+.about-quality
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color:rgb(241, 175, 94) ;
+    position: relative;
+}
+
+.about-quality::before
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 9%;
+    height: 6%;
+    margin-right: -10.4%;
+    top: 42%;
+}
+
+.about-quality::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 9%;
+    height: 6%;
+    margin-right: 1.5%;
+    top: 42%;
+}
+
+.taste
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color:rgb(241, 175, 94) ;
+    position: relative;
+}
+
+.taste::before
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 11%;
+    height: 7%;
+    margin-right: -12.5%;
+    top: 42%;
+}
+
+.taste::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 11%;
+    height: 7%;
+    margin-right: 1.2%;
+    top: 42%;
+}
+
+.bistro
+{
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+
+.quality
+{
+    background-color: rgba(0, 0, 0, 0.354);
+    padding-top: 5.3%;
+    padding-bottom: 5.3%;
+}
+
+.quality h4
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color:rgb(239, 183, 116);
+    position: relative;
+}
+
+.quality h4::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(243, 195, 136) ;
+    width: 18%;
+    height: 6%;
+    margin-right: 3%;
+    top: 50%;
+}
+
+.quality h2
+{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color:white ;
+}
+
+.quality p
+{
+    font-family: 'poppins', serif;
+    font-size: 18px;
+    width: 88%;
+    letter-spacing: 1px;
+    color:white ;
+}
+
+.quality button
+{
+    border:0;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-family: 'Poppins', serif;
+    background-color: rgb(243, 195, 136);
+    color: rgb(30, 29, 29);
+    font-size:14px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.quality button:hover
+{
+    background-color: white;
+}
+
+.About
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.About h4
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color:rgb(243, 167, 14) ;
+    position: relative;
+}
+
+.About h4::before
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(243, 167, 14);
+    width: 8.5%;
+    height: 7%;
+    margin-right: -10.5%;
+    top: 45%;
+}
+
+.About h4::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(243, 167, 14);
+    width: 8.5%;
+    height: 7%;
+    margin-right: 1.5%;
+    top: 45%;
+}
+
+
+.About h2
+{
+    font-size: 65px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.About p
+{
+    font-size: 20px;
+    font-family: 'Poppins', serif;
+    color: rgb(62, 62, 62);
+}
+
+.About .img-about-edit
+{
+    top: 40%;
+    left: 14%;
+    z-index: 1;
+}
+
+.About .img-about-edit-2
+{
+    z-index: 3;
+}
+
+.About .img-about-edit-3
+{
+    top: 40%;
+    right: 14%;
+    z-index: 1;
+}
+
+
+
+.menu
+{
+    color:white ;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 65px;
+}
+
+.menu-photo
+{
+    background-image: url('../images/four-chefs-in-white-with-plates.jpeg');
+    width:100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+}
+
+.overlay-menu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color:#000000 ;
+}
+
+
+.menu span
+{
+    display: inline-block;
+    transform: translateY(-8px);
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+}
+
+.menu span i
+{
+    font-size: 35px;
+    color:rgb(243, 197, 44);
+}
+
+.menu p
+{
+    font-family:'Oleo Script', serif !important;
+    font-size: 16px !important;
+    padding-top: 1%;
+}
+
+.menu img
+{
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    padding: 3px;
+    transition:all 0.5s ;
+    -webkit-transition:all 0.5s ;
+    -moz-transition:all 0.5s ;
+    -ms-transition:all 0.5s ;
+    -o-transition:all 0.5s ;
+    cursor: pointer;
+}
+
+.menu img:hover
+{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.selection
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color:white ;
+    position: relative;
+}
+
+.selection::before
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(243, 176, 44) ;
+    width: 9%;
+    height: 12%;
+    margin-right: -10.7%;
+    top: 42%;
+}
+
+.selection::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(243, 176, 44);
+    width: 9%;
+    height: 12%;
+    margin-right: 1.5%;
+    top: 42%;
+}
+
+.plats p
+{
+    font-family: 'Poppins', serif;
+    color: rgb(254, 254, 253);
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.types-color span
+{
+    font-family: 'poppins', cursive;
+    color:white;
+    background-color:rgb(218, 153, 22) ;
+    padding: 5px 22px;
+    border-radius: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+span.active
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.types-color span:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.more button
+{
+    padding: 8px 50px;
+    border: 0;
+    font-size: 15px;
+    font-family: 'Poppins', serif;
+    background-color:rgb(218, 153, 22) ;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.more button:hover
+{
+    background-color: white;
+    color: black;
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+.v-none
+{
+    display: none;
+}
+
+.location
+{
+    padding-top: 3%;
+}
+
+.location h4
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+    color:rgb(234, 147, 40);
+    position: relative;
+}
+
+.location h4::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(237, 157, 58) ;
+    width: 16%;
+    height: 8%;
+    margin-right: 3%;
+    top: 50%;
+}
+
+.location h2
+{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+}
+
+.location p
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.location button
+{
+    border: 0;
+    padding: 10px 25px;
+    background-color:rgb(234, 143, 33) ;
+    font-size: 14px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.location button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.location button:hover
+{
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    background-color:rgb(255, 140, 0) ;
+}
+
+.book-img
+{
+    background-image: url('../images/pexels-waldemar-brandt-2290070\ \(1\).jpg');
+    width:100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 60%;
+    position: relative;
+}
+
+.book-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#00000092 ;
+}
+
+.Book h4
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    color:rgb(221, 218, 218) ;
+    position: relative;
+}
+
+.Book h4::before
+{
+    content: '';
+    position: absolute;
+    background-color:white ;
+    width: 5.2%;
+    height: 8%;
+    margin-right: -7%;
+    top: 48%;
+}
+
+.Book h4::after
+{
+    content: '';
+    position: absolute;
+    background-color:white ;
+    width: 5.2%;
+    height: 8%;
+    margin-right: 1.4%;
+    top: 48%;
+}
+
+.Book h2
+{
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+    color:white ;
+    font-size: 70px;
+}
+
+.Book select
+{
+    padding: 12px 0;
+    color: white;
+    background-color:transparent;
+    border: 0;
+    border-bottom: 0.9px solid white;
+    font-family: 'Poppins', serif;
+}
+
+.Book select, input:focus
+{
+    outline: none;
+}
+
+.Book input
+{
+    padding: 12px 0;
+    background-color: transparent;
+    color: white !important;
+    border: none;
+    border-bottom: 0.9px solid white;
+    font-family: 'Poppins', serif;
+}
+
+.Book button
+{
+    border: 0;
+    font-size: 14px;
+    font-family: 'Poppins', serif;
+    padding: 10px 0;
+    background-color:rgb(215, 121, 6) ;
+    color: white;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.Book button:hover
+{
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    background-color:rgb(234, 129, 2) ;
+}
+
+footer
+{
+    background-color: #09080eef;
+}
+
+.BIS h2
+{
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 3%;
+    font-size: 35px;
+}
+
+.BIS p
+{
+    font-size: 14px;
+    line-height: 2;
+    color: rgb(213, 210, 210);
+}
+
+.BIS i
+{
+    padding-right: 6%;
+    font-size: larger;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.BIS i:hover
+{
+    color:rgb(215, 83, 6) ;
+}
+
+.hours h3
+{
+    font-family: 'Jost', serif;
+    font-size: 17px;
+    padding-bottom: 5%;
+}
+
+.hours p
+{
+    font-size: 14px;
+    color: rgb(213, 210, 210);
+}
+
+.Address h3
+{
+    font-family: 'Jost', serif;
+    font-size: 17px;
+    padding-bottom: 5%;
+}
+
+.Address p
+{
+    font-size: 15px;
+    color: rgb(213, 210, 210);
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.Address p:hover
+{
+    color:rgb(215, 83, 6) ;
+}
+
+.Address i
+{
+    padding-left: 4%;
+}
+
+footer .hours p
+{
+    display: inline-block;
+}
+
+footer .line
+{
+    border-bottom: 0.3px solid rgba(78, 78, 78, 0.763);
+}
+
+@media all and (max-width: 767px){
+    .offcanvas{
+        width: 65% !important;
+    }
+
+    html,body
+    {
+        overflow-x: hidden;
+    }
+
+    .types-color span{
+        padding:5px 17px ;
+    }
+
+    nav ul li
+    {
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+    }
+
+    .text-home h1
+    {
+        font-size: 55px;
+    }
+
+    .welcome
+    {
+        font-size: 18px;
+    }
+
+    .welcome::before
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(249, 180, 43);
+    width: 13%;
+    height: 6%;
+    margin-right: -16.5%;
+    top: 22%;
+}
+
+.welcome::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(249, 180, 43);
+    width: 13%;
+    height: 6%;
+    margin-right: 3%;
+    top: 22%;
+}
+
+.text-home p{
+    font-size: 17px;
+}
+
+.home-img a
+{
+    font-size: 11px;
+    padding: 4px 20px;
+}
+
+    .quality-2 h4
+    {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+
+    .quality-2 h2
+    {
+        font-size: 40px;
+    }
+
+    .quality-2 p
+    {
+        font-size: 16px;
+    }
+
+    .bistro
+    {
+        font-size: 33px;
+    }
+
+    .quality h2
+    {
+        font-size: 28px;
+    }
+
+    .quality h4
+    {
+        font-size: 14px;
+    }
+
+    .quality p
+    {
+        font-size: 10px;
+    }
+
+    .quality button{
+        font-size: 10px;
+        padding: 7px 20px;
+    }
+
+    .about-quality
+    {
+        font-size: 19px;
+        letter-spacing: 0;
+    }
+
+    .about-quality::before
+    {
+        content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 20%;
+    height: 6%;
+    margin-right: -24%;
+    top: 40%;
+    }
+
+    .about-quality::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 20%;
+    height: 6%;
+    margin-right: 3%;
+    top: 40%;
+}
+
+    .taste
+    {
+        font-size: 16px !important;
+        letter-spacing: 0;
+    }
+
+    .taste::before
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 20%;
+    height: 7%;
+    margin-right: -24%;
+    top: 40%;
+}
+
+.taste::after
+{
+    content: '';
+    position: absolute;
+    background-color:rgb(241, 175, 94) ;
+    width: 20%;
+    height: 7%;
+    margin-right: 4%;
+    top: 40%;
+}
+
+    .About h2
+    {
+        font-size: 40px;
+    }
+
+    .About h4
+    {
+        font-size: 20px;
+    }
+
+    .About p
+    {
+        font-size: 12px;
+    }
+
+    .menu
+    {
+        font-size: 40px;
+    }
+
+    .menu span i
+    {
+        font-size: 22px;
+    }
+
+    .Quality .photo
+    {
+        height: 75vh;
+    }
+
+    .selection
+    {
+        font-size: 14px;
+    }
+
+    .menu p {
+        font-size: 10px !important;
+    }
+
+    .plats p
+    {
+        font-size: 10px;
+        width: 100% !important;
+    }
+
+    .types-color span{
+        font-size: 10px;
+        padding: 5px 14px;
+    }
+
+    .more button
+    {
+        font-size: 12px;
+        padding: 6px 30px;
+    }
+
+    .location h4
+    {
+        font-size: 16px;
+    }
+
+    .location h2
+    {
+        font-size: 38px;
+    }
+
+    .location p
+    {
+        font-size: 14px;
+    }
+
+    .location button{
+        font-size: 12px;
+    }
+
+    .Book h2
+    {
+        font-size: 35px;
+    }
+
+    .Book h4
+    {
+        font-size: 12px;
+    }
+
+    .Book select, input{
+        font-size: 12px;
+    }
+
+    .Book button{
+        font-size: 10px;
+        padding: 6px ;
+    }
+}

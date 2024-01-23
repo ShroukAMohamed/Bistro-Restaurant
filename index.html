@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Jost:wght@600&family=Oleo+Script&family=Poppins&family=Satisfy&display=swap");
+    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg position-fixed top-0 end-0 start-0 m-0 p-0"
+    >
+      <div class="container">
+        <img class="logo ms-5" src="images/frenchlogo1.png" alt="" />
+        <div class="navs">
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="sit offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item nav-active">
+                  <a class="nav-link" aria-current="page" href="#">HOME</a>
+                </li>
+
+                <li class="nav-item nav-active">
+                  <a class="nav-link" href="#About">About Us</a>
+                </li>
+
+                <li class="nav-item nav-active">
+                  <a class="nav-link" href="#Menu">Menu</a>
+                </li>
+
+                <li class="nav-item nav-active">
+                  <a class="nav-link" href="#location">Location</a>
+                </li>
+
+                <li class="nav-item nav-active">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Language
+                  </a>
+                  <ul id="lang" class="dropdown-menu lang-select" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item text-capitalize" data-lang="Ar" href="indexAr.html">Arabic</a></li>
+                    <li><a class="dropdown-item text-capitalize" data-lang="En" href="index.html">English</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="Home">
+      <div class="home-img">
+        <div class="overlay"></div>
+        <div class="text-home container h-100">
+          <div
+            class="row text-center h-100 justify-content-center align-items-center"
+          >
+            <div
+              class="col-lg-10 contain-div"
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-duration="500"
+              data-aos-offset="0"
+            >
+              <h2 class="welcome pb-4">WELCOME TO BISTRO</h2>
+
+              <h1 class="pb-3">Delicious Food & Wonderful Eating Experience</h1>
+
+              <p class="w-75 m-auto pb-2">
+                We provide the best types of food with the best quality and the
+                most delicious possible We are always distinguished by our
+                chefs.
+              </p>
+              <a class="btn btn-outline-light mt-4" href="#Enjoy">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="Enjoy" class="Enjoy">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-11 enjoy pb-5 pb-md-0">
+            <h4>REFRESH YOUR TASTE BUDS</h4>
+            <h2 class="pb-4">Enjoy An Exceptional Journey of Taste</h2>
+            <p>
+              We see our customers as invited guests to a party, and we are the
+              hosts. It’s our job every day to make every important aspect of
+              the customer experience a little bit better.
+            </p>
+            <div data-aos="fade-up" data-aos-duration="1500">
+              <img
+                class="img-fluid pt-3"
+                src="images/pexels-ivan-samkov-8951203.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block g-5 ms-5 position-relative">
+            <div data-aos="fade-down" data-aos-duration="1500">
+              <img class="img-fluid w-75" src="images/img-10.jpg" alt="" />
+            </div>
+            <div
+              data-aos="fade-zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              class="position-absolute img-details"
+            >
+              <img
+                class="img-fluid"
+                src="images/Easy-Swiss-Mushroom-Burgers_7-SQ.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Quality">
+      <div class="photo d-flex align-items-center">
+        <div class="overlay-quality"></div>
+        <div class="container">
+          <div
+            class="row text-center position-relative pb-5 m-0"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div class="col-12">
+              <h2 class="about-quality">QUALITY</h2>
+            </div>
+            <div class="col-12">
+              <h2 class="text-white bistro">BISTRO SANCERRE</h2>
+            </div>
+            <div class="col-12 pt-2">
+              <h2 class="taste">TASTE</h2>
+            </div>
+          </div>
+          <div
+            class="row position-relative pt-4 pt-md-5 justify-content-center about-bistro"
+            data-aos="fade-zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="col-lg-3 d-none d-lg-block pe-0">
+              <img
+                class="img-fluid"
+                src="images/fresh-salmon-with-dill-food-photography-recipe-JMQKHUY-768x1061.jpg"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-5 col-10 quality">
+              <div class="ps-4">
+                <h4>NUTRITION AND TASTE</h4>
+                <h2>QUALITY & BALANCED FOOD</h2>
+                <p>
+                  We serve food, harmony, and laughter. Making delicious food
+                  and providing a wonderful eating experience since 1998.
+                </p>
+                <button class="mt-3">LEARN MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="About" class="About">
+      <div class="container">
+        <div
+          class="row position-relative align-items-center justify-content-center text-center"
+        >
+          <div class="col-12 pb-lg-5 pb-4 g-4">
+            <h4>ABOUT US</h4>
+            <h2 class="pb-3">OUR FOOD PHILOSOPHY</h2>
+            <p class="w-75 m-auto">
+              Simple and balanced. Alexander Petillo brings together flavors and
+              specialties from Italy and beyond to create his own culinary
+              world, full of surprising artistry.
+            </p>
+          </div>
+          <div
+            class="col-lg-3 d-none d-lg-block position-absolute img-about-edit"
+            data-aos="fade-zoom-in"
+            data-aos-duration="1000"
+          >
+            <img
+              class="img-fluid"
+              src="images/pexels-cottonbro-studio-4253320.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-4 col-10 position-relative img-about-edit-2"
+            data-aos="fade-zoom-in"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+            <img
+              class="img-fluid"
+              src="images/pexels-cottonbro-studio-4252137 copy.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-3 d-none d-lg-block position-absolute img-about-edit-3"
+            data-aos="fade-zoom-in"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <img
+              class="img-fluid"
+              src="images/pexels-cottonbro-studio-3297884.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Menu" class="plats pt-5">
+      <div class="menu-photo d-flex align-items-center justify-content-center">
+        <div class="overlay-menu"></div>
+        <div>
+          <div class="container">
+            <div class="row text-center position-relative m-0">
+              <div class="col-12">
+                <h2 class="menu">
+                  <span><i class="fa-regular fa-star"></i></span> OUR MENU
+                  <span><i class="fa-regular fa-star"></i></span>
+                </h2>
+              </div>
+              <div class="col-lg-12 col-md-12 pt-2">
+                <h2 class="selection">OUR BEST SELECTION</h2>
+              </div>
+            </div>
+          </div>
+          <div class="container position-relative">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 pt-4 pb-1">
+                <p class="text-center w-75 m-auto">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Libero necessitatibus ipsum possimus numquam nostrum corporis
+                  accusamus cum molestias.
+                </p>
+              </div>
+              <div
+                class="col-xl-6 col-lg-8 col-md-11 col-12 d-flex justify-content-between types-color pt-4"
+              >
+                <span class="active">Special</span>
+                <span>Pasta</span>
+                <span>Soup</span>
+                <span>Meat</span>
+                <span>Desserts</span>
+              </div>
+            </div>
+
+            <div class="menu">
+              <div class="special">
+                <div class="row pt-5">
+                  <div
+                    class="col-lg-3 col-6"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-amanda-lim-8256985.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div
+                    class="col-lg-3 col-6"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="200"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shameel-mukkath-5175620.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div
+                    class="col-lg-3 col-6"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-ruslan-khmelevsky-7845133.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div
+                    class="col-lg-3 col-6"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="600"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-ivan-samkov-8951203.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div
+                    class="col-lg-3 d-none d-lg-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-gustavo-peres-9500281 (1).jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div
+                    class="col-lg-3 d-none d-lg-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="200"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-senuscape-2313682.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div
+                    class="col-lg-3 d-none d-lg-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-jianwei-zhu-8463461.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div
+                    class="col-lg-3 d-none d-lg-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="600"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="images/wepik-photo-mode-2022623-154656.png"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pasta v-none">
+                <div class="row pt-5">
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shameel-mukkath-5175528.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-jan-n-g-u-y-e-n-🍁-2664216.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shameel-mukkath-5640046.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pasta-spaghetti-with-shrimps-sauce.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shameel-mukkath-5175543.jpg "
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-makafood-8980450.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-marvin-sacdalan-13065208.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pasta-fettuccine-bolognese-with-tomato-sauce-white-bowl.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="soup v-none">
+                <div class="row pt-5">
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-pixabay-209540.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-foodie-factor-539451.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-cats-coming-955137.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-daniel-ruiz-9251295.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-dima-valkov-4001866.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-anna-pyshniuk-4103375.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-naim-benjelloun-1618925.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-monica-turlui-7218638.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="meat v-none">
+                <div class="row pt-5">
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-ahmad-no-more-7594969.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shameel-mukkath-5175620.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-артем-смолдарев-7462841.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-min-che-7491904.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-dario-solano-4085597.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-aaron-johnson-7807407.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-calvin-lee-9967252.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shardar-tarikul-islam-8973185.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="desserts v-none">
+                <div class="row pt-5">
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shameel-mukkath-6262167.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-shameel-mukkath-6262174.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-pixabay-45202.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 col-6">
+                    <img
+                      class="img-fluid"
+                      src="images/dessert-fruitcake.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-augustinus-martinus-noppé-12642351.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-antony-trivet-12842882.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/pexels-ash-376464.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+
+                  <div class="col-lg-3 d-none d-lg-block">
+                    <img
+                      class="img-fluid"
+                      src="images/side-view-traditional-turkish-dessert-baklava-with-pistachio-wooden-table.jpg"
+                      alt=""
+                    />
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center more pt-md-4 pt-2">
+              <div class="col-lg-12">
+                <button>SEE MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="location">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 d-none d-sm-block g-4"
+            data-aos="fade-zoom-in"
+            data-aos-duration="1000"
+          >
+            <img
+              class="img-fluid"
+              src="images/pexels-spencer-davis-9837738 (1).jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-10 g-5 g-sm-4"
+            data-aos="fade-zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <img
+              class="img-fluid"
+              src="images/klara-kulikova-f3ICj3QJkQA-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-5 col-md-12 col-sm-12 col-10 ms-lg-5 g-4 order-first order-sm-last"
+          >
+            <h4>OUR LOCATION</h4>
+            <h2>VISIT OUR RESTAURANT</h2>
+            <p>
+              We see our customers as invited guests to a party, and we are the
+              hosts. Piazza della Signoria, 1050122 . Firenze . Italy <br />
+              M: booking@patiotime.com <br />
+              T: +39 055 1234567
+            </p>
+            <button class="mt-2">
+              <a target="_blank" href="https://goo.gl/maps/nJ2qfuyWUrXEUm9JA"
+                >GET LOCATION</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="Book pt-5">
+      <div class="book-img d-flex align-items-center">
+        <div class="book-overlay"></div>
+        <div class="container">
+          <div class="row text-center position-relative justify-content-center">
+            <div class="col-lg-12 col-10">
+              <h4>ONLINE RESERVATION</h4>
+              <h2 class="pb-lg-5 pb-2 pt-2 pb-md-3 pt-md-3">BOOK A TABLE</h2>
+            </div>
+            <div class="col-lg-3 col-12">
+              <select class="w-75" name="" id="">
+                <option value="1">1 Person</option>
+                <option value="2">2 Person</option>
+                <option value="3">3 Person</option>
+                <option value="4">4 Person</option>
+                <option value="5">5 Person</option>
+                <option value="6">6 Person</option>
+                <option value="7">7 Person</option>
+                <option value="8">8 Person</option>
+                <option value="9">9 Person</option>
+                <option value="10">10 Person</option>
+              </select>
+            </div>
+            <div class="col-lg-3 col-12 gy-2">
+              <input class="w-75" value="Date: 2023-02-16" type="datetime" />
+            </div>
+            <div class="col-lg-3 col-12 gy-2">
+              <select class="w-75" name="" id="">
+                <option value="12 am">12:00 AM</option>
+                <option value="1 am">1:00 AM</option>
+                <option value="2 am">2:00 AM</option>
+                <option value="3 am">3:00 AM</option>
+                <option value="9 am">9:00 AM</option>
+                <option value="10 am">10:00 AM</option>
+                <option value="11 am">11:00 AM</option>
+                <option value="12 pm">12:00 PM</option>
+                <option value="1 pm">1:00 PM</option>
+                <option value="2 pm">2:00 PM</option>
+                <option value="3 pm">3:00 PM</option>
+                <option value="4 pm">4:00 PM</option>
+                <option value="5 pm">5:00 PM</option>
+                <option value="6 pm">6:00 PM</option>
+                <option value="7 pm">7:00 PM</option>
+                <option value="8 pm">8:00 PM</option>
+                <option value="9 pm">9:00 PM</option>
+                <option value="10 pm">10:00 PM</option>
+                <option value="11 pm">11:00 PM</option>
+              </select>
+            </div>
+            <div class="col-lg-3 col-7 gy-4">
+              <button class="w-75">BOOK NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-center text-white pt-5 pb-4"
+        >
+          <div class="col-lg-3 col-10 BIS pe-4">
+            <h2 class="">BISTRO</h2>
+            <p class="">
+              Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+              arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+              justo.
+            </p>
+            <i class="fa-brands fa-facebook-f"></i
+            ><i class="fa-brands fa-twitter"></i
+            ><i class="fa-brands fa-instagram"></i
+            ><i class="fa-brands fa-pinterest"></i
+            ><i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="col-lg-3 col-10 gy-5 gy-lg-0 hours ps-3">
+            <h3 class="">WORKING HOURS</h3>
+            <div class="d-flex justify-content-between">
+              <p>Monday - Friday</p>
+              <p class="pe-5">9:00 - 22:00</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p>Saturday</p>
+              <p class="pe-5">11:00 - 00:00</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p>Sunday</p>
+              <p class="pe-5">11:00 - 23:00</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-10 gy-5 gy-lg-0 Address ps-lg-4">
+            <h3 class="">OUR ADDRESS</h3>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Lorem ipsum dolor sit
+              amet.
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +39-055-123456</p>
+            <p><i class="fa-regular fa-envelope"></i> booking@Bistro.com</p>
+          </div>
+          <div class="col-lg-3 col-10 gy-5 gy-lg-0 Address ps-lg-4">
+            <h3 class="">OUR POLICY</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              voluptatum eius. Labore iure ducimus, sit vel quis asperiores
+              numquam cumque ab.
+            </p>
+          </div>
+          <div class="col-12 text-center">
+            <div class="line pt-5"></div>
+            <p class="pt-5">
+              © Copyright Designed By ShroukA.Mohamed Front-End Developer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
