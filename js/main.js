@@ -54,7 +54,8 @@ if(localStorage.getItem('language') != null){
     if(localStorage.getItem('language')=='arabic'){
         if(page.indexOf('Ar') == -1){
             var new_page = page.split('.')[0]+'Ar.'+page.split('.')[1]
-            window.location = new_page
+            console.log(new_page);
+            // window.location = new_page
         }
     }else{
         // user language is english
@@ -62,7 +63,8 @@ if(localStorage.getItem('language') != null){
             if(page.indexOf('Ar') > 0)
             {
                 var new_page = page.replace('Ar','');
-                window.location = new_page
+                console.log(new_page)
+                // window.location = new_page
             }
         }
     }
