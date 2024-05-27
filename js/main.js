@@ -1,5 +1,6 @@
 if (!(localStorage.getItem('language'))) {
     localStorage.setItem('language','english')
+    window.location = 'index.html'
 }
 
 $('.types-color span').eq(0).click(function(){
